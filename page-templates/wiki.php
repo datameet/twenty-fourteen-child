@@ -10,22 +10,18 @@
 get_header(); ?>
 
 <div id="main-content" class="main-content">
+	<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    		<?php if(function_exists('bcn_display'))
+    		{
+        		bcn_display();
+    		}?>
+		</div>
 
-<?php
-	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
-		// Include the featured content template.
-		get_template_part( 'featured-content' );
-	}
-?>
+
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
+
 
 			<?php
 				// Start the Loop.
@@ -40,6 +36,7 @@ get_header(); ?>
 					}
 				endwhile;
 			?>
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
 </div><!-- #main-content -->

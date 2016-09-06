@@ -25,3 +25,8 @@ border-color: #aa0000;
     margin: 0 auto;
     max-width: 90% !important;
 }
+
+.breadcrumbs {
+    margin-left: 275px;
+    margin-top: 10px;
+}
