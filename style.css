@@ -12,6 +12,11 @@
  Text Domain:  twenty-fourteen-child
 */
 
+#page {
+margin-left: auto;
+margin-right: auto;
+}
+
 #subscribe-email input {
 border-color: #aa0000;
 }
