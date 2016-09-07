@@ -17,7 +17,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#subscribe-email input {
+input, textarea {
 border-color: #aa0000;
 }
 
