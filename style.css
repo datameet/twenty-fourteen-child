@@ -21,6 +21,11 @@ input, textarea {
 border-color: #aa0000;
 }
 
+#subscribe-email input {		 
+ border-color: #aa0000;
+ color:#000;
+ }
+
 .site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content .entry-meta, .page-content {
     margin: 0 auto;
     max-width: 90% !important;
@@ -30,3 +35,5 @@ border-color: #aa0000;
     margin-left: 275px;
     margin-top: 10px;
 }
+
+
